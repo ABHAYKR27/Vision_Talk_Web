@@ -9,7 +9,6 @@ function Login() {
         </h2>
 
         <form className="space-y-5">
-          {/* Email Input */}
           <div>
             <label
               htmlFor="email"
@@ -25,7 +24,6 @@ function Login() {
             />
           </div>
 
-          {/* Password Input */}
           <div>
             <label
               htmlFor="password"
@@ -41,7 +39,6 @@ function Login() {
             />
           </div>
 
-          {/* Submit Button */}
           <button
             type="submit"
             className="w-full py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition duration-200"
